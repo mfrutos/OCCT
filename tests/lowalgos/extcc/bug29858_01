@@ -18,4 +18,5 @@ mkcurve c2 e2
 extrema c1 c2
 
 # Check result
-checklength ext_1 -l 9.4224516867962155e-10 -eps 0.01
+# Extrema_ExtPC projecting c1(1) onto c2 gives 8.9146036061021795e-10, the least distance.
+checklength ext_1 -l 8.9146036061021795e-10 -eps 0.01
